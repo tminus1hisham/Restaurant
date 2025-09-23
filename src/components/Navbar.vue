@@ -1,0 +1,26 @@
+<script setup>
+const isLoggedIn = true
+</script>
+
+<template>    
+  
+    <v-app-bar color="#E1F5FE">
+        <v-app-bar-title>BARATIE</v-app-bar-title>
+        <v-btn to="/">Home</v-btn>
+        <v-btn to="/menu">Menu</v-btn>
+        <v-btn to="/reservation">Reservations</v-btn>
+        <v-btn to="/contactus">Contact Us</v-btn>        
+        <v-btn to="/orders" v-if="isLoggedIn">Orders</v-btn>
+        <v-avatar to="/userprofile" v-if="isLoggedIn" >
+            <span class="text-h5 text-white">A</span>
+        </v-avatar>
+        <v-btn to="/login" v-else>Login</v-btn>
+
+        <!-- <v-btn to="/orders" v-if="isLoggedIn">Orders</v-btn>
+        <v-btn to="/userprofile" v-if="isLoggedIn">User Profile</v-btn>
+        <v-btn to="/" v-else-if="!isLoggedIn">Logout</v-btn> -->
+    </v-app-bar>   
+</template>
+
+<style>
+</style>
