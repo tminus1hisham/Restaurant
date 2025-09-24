@@ -7,11 +7,11 @@
      <v-container>
         <v-row>
             <v-carousel width="1200px">
-            <v-carousel-item src="/images/1.jpeg"></v-carousel-item>
-            <v-carousel-item src="/images/2.jpeg"></v-carousel-item>
-            <v-carousel-item src="/images/3.jpeg"></v-carousel-item>
-            <v-carousel-item src="/images/4.jpeg"></v-carousel-item>
-            <v-carousel-item src="/images/5.jpeg"></v-carousel-item>
+            <v-carousel-item src="/images/1.jpg"></v-carousel-item>
+            <v-carousel-item src="/images/2.jpg"></v-carousel-item>
+            <v-carousel-item src="/images/3.jpg"></v-carousel-item>
+            <v-carousel-item src="/images/4.jpg"></v-carousel-item>
+            <v-carousel-item src="/images/5.jpg"></v-carousel-item>
             </v-carousel>
         </v-row>
      </v-container>
@@ -38,7 +38,7 @@
           <v-col md="4">
             <v-card color="#E1F5FE">
               <v-img 
-              src="/images/6.jpeg"
+              src="/images/6.jpg"
               class="align-end text-white"
               height="200"
               cover
@@ -55,7 +55,7 @@
           <v-col md="4">
             <v-card color="#E1F5FE">
               <v-img 
-              src="/images/7.jpeg"
+              src="/images/7.jpg"
               class="align-end text-white"
               height="200"
               cover
@@ -72,7 +72,7 @@
           <v-col md="4">
             <v-card  color="#E1F5FE">
               <v-img 
-              src="/images/8.jpeg"
+              src="/images/8.jpg"
               class="align-end text-white"
               height="200"
               cover

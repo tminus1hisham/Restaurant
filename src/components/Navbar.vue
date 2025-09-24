@@ -16,10 +16,7 @@ const isLoggedIn = true
         </v-avatar>
         <v-btn to="/login" v-else>Login</v-btn>
 
-        <!-- <v-btn to="/orders" v-if="isLoggedIn">Orders</v-btn>
-        <v-btn to="/userprofile" v-if="isLoggedIn">User Profile</v-btn>
-        <v-btn to="/" v-else-if="!isLoggedIn">Logout</v-btn> -->
-    </v-app-bar>   
+    </v-app-bar>    
 </template>
 
 <style>
