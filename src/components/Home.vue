@@ -6,7 +6,7 @@
     <!-- carousel -->
      <v-container>
         <v-row>
-            <v-carousel width="1200px">
+            <v-carousel width="1200px" >
             <v-carousel-item src="/images/1.jpg"></v-carousel-item>
             <v-carousel-item src="/images/2.jpg"></v-carousel-item>
             <v-carousel-item src="/images/3.jpg"></v-carousel-item>
