@@ -36,7 +36,7 @@
       <v-container>
         <v-row>
           <v-col md="4">
-            <v-card color="#E1F5FE">
+            <v-card color="#FF9800">
               <v-img 
               src="/images/6.jpg"
               class="align-end text-white"
@@ -53,7 +53,7 @@
             </v-card>
           </v-col>
           <v-col md="4">
-            <v-card color="#E1F5FE">
+            <v-card color="#FF9800">
               <v-img 
               src="/images/7.jpg"
               class="align-end text-white"
@@ -70,7 +70,7 @@
             </v-card>
           </v-col>
           <v-col md="4">
-            <v-card  color="#E1F5FE">
+            <v-card  color="#FF9800">
               <v-img 
               src="/images/8.jpg"
               class="align-end text-white"
@@ -93,7 +93,7 @@
     <!-- footer -->
      <v-container>
         <v-row>
-          <v-footer class="text-center d-flex flex-column ga-2 py-4" color="#E1F5FE">
+          <v-footer class="text-center d-flex flex-column ga-2 py-4" color="#FF9800">
                 <div class="d-flex ga-3">
                 <v-btn icon="mdi-facebook" density="comfortable" variant="text" ></v-btn>
                 <v-btn icon="mdi-twitter" density="comfortable" variant="text" ></v-btn>

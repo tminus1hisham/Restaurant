@@ -4,7 +4,7 @@ const isLoggedIn = true
 
 <template>    
   
-    <v-app-bar color="#E1F5FE">
+    <v-app-bar color="#FF9800">
         <v-app-bar-title>BARATIE</v-app-bar-title>
         <v-btn to="/">Home</v-btn>
         <v-btn to="/menu">Menu</v-btn>
