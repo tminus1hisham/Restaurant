@@ -27,6 +27,7 @@ const menuItem = menuStore.selectedMenuItem
                         <v-number-input
                           control-variant="split"
                           density="compact"
+                          placeholder="1"
                           :min="1"
                           :max="10"
                         >
@@ -36,7 +37,7 @@ const menuItem = menuStore.selectedMenuItem
                     <!-- Quantity <v-text-field></v-text-field> -->
                 </v-card-text>
                     <v-card-actions>
-                        <v-btn color="#FF9800" variant="elevated">Order</v-btn>
+                        <v-btn color="#FF9800" variant="elevated" block>Order</v-btn>
                     </v-card-actions>
                 </v-card>
 

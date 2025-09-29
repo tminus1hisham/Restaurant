@@ -100,7 +100,7 @@ function makeReservation(){
                     </v-row>
                     <v-row>
                         <v-col align="center">
-                            <v-btn color="#E1F5FE" @click="makeReservation()">Make Reservation</v-btn>
+                            <v-btn color="#FF9800" @click="makeReservation()" block>Make Reservation</v-btn>
                         </v-col>
                     </v-row>
                 </v-card>
